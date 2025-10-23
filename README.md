@@ -1,1 +1,1 @@
-# Mod-l-Uygulamas-
+# Modul-Uygulamasi
