@@ -74,8 +74,13 @@ def kitap_listele():
 
 menu = Menu("Kitaplık Uygulaması")
 
-menu.menu_ogesi_ekle("Kitap Ara", kitap_ara)
-menu.menu_ogesi_ekle("Kitap Ekle", kitap_ekle)
-menu.menu_ogesi_ekle("Kitapları Listele", kitap_listele)
+menu_ogeleri = [
+    ("Kitap Ara", kitap_ara),
+    ("Kitap Ekle", kitap_ekle),
+    ("Kitapları Listele", kitap_listele)
+]
+
+for oge_adi, fonksiyon in menu_ogeleri:
+    menu.menu_ogesi_ekle(oge_adi, fonksiyon)
 
 menu.calistir()

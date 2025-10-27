@@ -24,7 +24,7 @@ class Menu:
       self.menu_goster()
 
       try:
-        secim = int(input("Kitaplık uygulamasına hoşgeldiniz. Lütfen yapmak istediğiniz işlemi seçiniz: "))
+        secim = int(input("Uygulamaya hoşgeldiniz. Lütfen yapmak istediğiniz işlemi seçiniz: "))
         
       except ValueError:
         print("Lütfen sadece sayı giriniz.")
